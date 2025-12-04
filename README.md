@@ -97,7 +97,7 @@ This quest uses **real Microsoft Learn modules** from the `learn-pr/wwl/` folder
    ```
 
 4. **Verify setup**:
-   - Check the **Issues** tab - you should see 8 sample issues labeled "quest-sample"
+   - Check the **Issues** tab - you should see sample issues labeled "quest-sample"
    - Check the **Pull requests** tab - you should see 1 sample PR labeled "quest-sample"
 
 ## Time Commitment
@@ -112,10 +112,6 @@ This quest uses **real Microsoft Learn modules** from the `learn-pr/wwl/` folder
 
 Ready to begin? Choose your starting point:
 
-- 🚀 **[Part 1: Fundamentals](part-1-fundamentals/README.md)** - Start here if you're new to GitHub Copilot or want to learn the core skills
-- ⚡ **[Part 2: Advanced](part-2-advanced/README.md)** - Jump here if you're comfortable with Copilot basics and want advanced automation
-
-Or dive into individual scenarios:
 - [Scenario 1: The Inheritance](scenario-1-inheritance/README.md)
 - [Scenario 2: The Backlog Battle](scenario-2-backlog-battle/README.md)
 - [Scenario 3: The Big Merge](scenario-3-big-merge/README.md)
