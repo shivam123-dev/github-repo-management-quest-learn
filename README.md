@@ -31,41 +31,11 @@ By completing this quest, you will:
 
 This quest uses **real Microsoft Learn modules** from the `learn-pr/wwl/` folder and contains a foundational module plus four progressive scenarios:
 
-### Module 0: Workspace Preparation
-**Duration:** 15-20 minutes | **Covered in:** Part 1 (intro) + Part 2 (advanced)
-
-Customize your GitHub Copilot workspace with agents and reusable prompts using examples from Microsoft Learn documentation.
-
-- **Part 1 covers:** Task 0.1 - Introduction to agents and prompts
-- **Part 2 covers:** Tasks 0.2-0.4 - Creating custom agents and prompt libraries
-
-### Scenario 1: The Inheritance
-**Duration:** 25-30 minutes | **Covered in:** Part 1
-
-Take over an unfamiliar Microsoft Fabric documentation repository. Use Copilot to explore the module structure, identify issues, and create an improvement plan.
-
-**Content:** Microsoft Fabric modules including lakehouses, medallion architecture, and semantic models
-
-### Scenario 2: The Backlog Battle
-**Duration:** 20-25 minutes | **Covered in:** Part 1
-
-Triage 12 open issues in a Microsoft Learn repository. Categorize, prioritize, identify duplicates, and create fix proposals.
-
-**Content:** Workflow-created issues covering broken images, outdated dates, accessibility, and more
-
-### Scenario 3: The Big Merge
-**Duration:** 25-30 minutes | **Covered in:** Part 2
-
-Review a pull request adding new Copilot for Fabric documentation. Identify content issues, validate cross-references, and provide constructive feedback.
-
-**Content:** Workflow-created PR with intentional issues to discover
-
-### Scenario 4: The Agent Arsenal
-**Duration:** 20-25 minutes | **Covered in:** Part 2
-
-Build a comprehensive agent ecosystem with specialized documentation agents that work together for enterprise-scale workflows.
-
-**Content:** Advanced agent patterns and workflow orchestration
+- **Module 0: Workspace Preparation** - Customize your GitHub Copilot workspace with agents and reusable prompts using examples from Microsoft Learn documentation.
+- **Scenario 1: The Inheritance** - Take over an unfamiliar Microsoft Fabric documentation repository. Use Copilot to explore the module structure, identify issues, and create an improvement plan.
+- **Scenario 2: The Backlog Battle** - Triage 12 open issues in a Microsoft Learn repository. Categorize, prioritize, identify duplicates, and create fix proposals.
+- **Scenario 3: The Big Merge** - Review a pull request adding new Copilot for Fabric documentation. Identify content issues, validate cross-references, and provide constructive feedback.
+- **Scenario 4: The Agent Arsenal** - Build a comprehensive agent ecosystem with specialized documentation agents that work together for enterprise-scale workflows.
 
 ## Prerequisites
 
@@ -73,11 +43,6 @@ Build a comprehensive agent ecosystem with specialized documentation agents that
 - **Markdown knowledge**: Familiarity with markdown syntax and documentation
 - **GitHub Copilot**: Active GitHub Copilot subscription (individual, business, or enterprise)
 - **Tools**: VS Code with GitHub Copilot extension, Git client, GitHub account
-
-**Optional but helpful:**
-- Experience with documentation systems (MkDocs, Jekyll, Docusaurus)
-- Basic Python knowledge for understanding utility scripts
-- Prior experience with code review processes
 
 ## Getting Started
 
