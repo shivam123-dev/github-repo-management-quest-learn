@@ -41,7 +41,7 @@ Create a comprehensive repository map using GitHub Copilot's workspace understan
 Open Copilot Chat and use this prompt:
 
 ```
-@workspace Analyze this Microsoft Learn content repository and provide:
+@workspace Analyze this Microsoft Learn content repository in `learn-pr/wwl` and provide:
 1. A summary of the folder structure and organization pattern
 2. The main product areas covered (Microsoft Fabric, Intune, DevOps, etc.)
 3. The types of content in each module (tutorials, conceptual, exercises, knowledge checks)
