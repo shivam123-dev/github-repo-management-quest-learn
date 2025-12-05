@@ -75,14 +75,22 @@ This quest uses **real Microsoft Learn modules** in the `learn-pr/wwl/` folder a
    - Click the "Fork" button at the top-right of this repository
    - Choose your account as the destination for the fork
 
-2. **Clone your fork** (replace `[your-username]` with your GitHub username):
+   ![Fork button location](media/fork_icon.png)
+
+2. **Open VS Code and open a terminal:**
+   - Launch VS Code
+   - Open the terminal: **View** → **Terminal** (or press `` Ctrl+` ``)
+   - Navigate to where you want to store the project (e.g., `cd Documents`)
+
+3. **Clone your fork** (replace `[your-username]` with your GitHub username):
+
    ```bash
    git clone https://github.com/[your-username]/github-repo-management-quest-learn.git
    cd github-repo-management-quest-learn
    code .
    ```
 
-3. **Create sample content** by running the setup workflows:
+4. **Create sample content** by running the setup workflows:
 
    **Option A: Using GitHub Web Interface (Recommended)**
    - Go to your forked repository on GitHub
@@ -104,6 +112,7 @@ This quest uses **real Microsoft Learn modules** in the `learn-pr/wwl/` folder a
    - Wait for the workflow to complete (creates 1 sample pull request)
 
    **Option B: Using GitHub CLI (if you have it installed)**
+
    ```bash
    # Create sample issues
    gh workflow run setup-quest-issues.yml --field scenario=scenario-3
@@ -112,9 +121,11 @@ This quest uses **real Microsoft Learn modules** in the `learn-pr/wwl/` folder a
    gh workflow run setup-quest-pr.yml --field pr_size=medium
    ```
 
-4. **Verify setup**:
+5. **Verify setup**:
    - Check the **Issues** tab - you should see sample issues labeled "quest-sample"
    - Check the **Pull requests** tab - you should see 1 sample PR labeled "quest-sample"
+
+   ![Issues and Pull Requests tabs location](media/issues_PR_location.png)
 
 ## Next Steps
 
