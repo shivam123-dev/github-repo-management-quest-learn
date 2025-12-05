@@ -45,6 +45,17 @@ This quest uses **real Microsoft Learn modules** in the `learn-pr/wwl/` folder a
 | **Commit** | A saved snapshot of changes to your files, with a message describing what changed. |
 | **Issue** | A task, bug report, or feature request tracked in a repository's issue tracker. |
 
+### GitHub Copilot Customization Features
+
+| Feature | Agents | Prompts | Instructions | Workflows |
+|---------|--------|---------|--------------|-----------|
+| **Purpose** | Persistent persona with scoped behavior | Reusable one-off commands | Global guidance for Copilot | Multi-step automated tasks |
+| **Location** | `.github/agents/` | `.github/prompts/` | `.github/copilot-instructions.md` | GitHub Actions or Copilot CLI |
+| **Format** | `.agent.md` (Markdown + YAML frontmatter) | `.prompt.md` (Markdown + YAML) | Markdown | YAML workflow files |
+| **Scope** | Repo-specific or org-wide | Repo-specific | Repo-wide | Repo or org |
+| **Recognition** | Appears in Copilot Chat dropdown | Appears as slash commands (`/my-prompt`) | Applies globally | Executes jobs automatically |
+| **Use Case** | Specialized roles (e.g., Security Reviewer, Docs Writer) | Quick tasks (e.g., Generate tests) | Set tone or coding standards | Automate CI/CD or scripted tasks |
+
 ## Getting Started
 
 ### Setup Requirements
